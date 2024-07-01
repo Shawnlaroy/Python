@@ -27,3 +27,18 @@ print(age)
 weight_lbs = input('Weight (lbs): ')
 weight_kg = int(weight_lbs) * 0.45
 print(weight_kg) 
+course = "Beginner's A1 English Level Test"
+print (course)
+print (course[-1])
+print (course[0:3])
+name = 'Jennifer'
+print(name[1:-1])
+first = 'John'
+last = 'Smith'
+message = first + ' [' + last + '] is a coder'
+print(message)
+msg = f'{first} [{last}] is a coder'
+print(msg)
+course.upper()
+print(course.upper())
+print(course.lower())
